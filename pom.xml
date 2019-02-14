@@ -17,6 +17,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <resteasy.version>3.6.2.Final</resteasy.version>
         <springboot.version>2.1.2.RELEASE</springboot.version>
+        <resteasy.springboot.version>3.0.1.Final-SNAPSHOT</resteasy.springboot.version>
     </properties>
     
     <dependencyManagement>
@@ -54,7 +55,7 @@
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-spring-boot-starter</artifactId>
-            <version>${project.version}</version>
+            <version>${resteasy.springboot.version}</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
